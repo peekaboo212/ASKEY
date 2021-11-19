@@ -18,11 +18,14 @@
         </div>
     </header>
     <main>
+        <!--  -->
         <div class="contenedorFotoUsuario">
             <img id="foto" src="img/fotoUsuario.png">
         </div>
+        <!-- ------------------------------------------------------------------------ -->
         <div class="contenedorHacerPregunta">
             <form action="" method="POST" id="hacerPregunta">
+                <!-- Este div va a contener una caja para seleccionar la materia -->
                 <div class="encabezadoPregunta">
                     <select name="materia" id="materia">
                         <option>Materia</option>
@@ -37,6 +40,7 @@
                 <input type="submit" value="Publicar" id="botonPublicar" class="btn btn-primary">
             </form>
         </div>
+        <!-- --------------------------------------------------------------------------------------- -->
         <div class="contenedorFiltros">
             <form action="" method="POST" id="filtro">
                 <select name="materia" id="materia">
@@ -59,7 +63,10 @@
                 <input type="submit" value="Buscar" id="botonFiltro">
             </form>
         </div>
+        <!-- --------------------------------------------------------------------------------------- -->
         <div class="contenedorPreguntas">
+            <!-- En el encabezado aparecerá foto del usuario, nombre, materia y fecha de la pregunta
+                    Dentro de cada div puedes hacer la conexion con la bd-->
             <div class="encabezadoPregunta">
                 <!--Revisar la acomodación y consulta-->
                 <div id="fotoUsuario"><img src="img/fotoUsuario.png" width="25px"></div>
@@ -67,6 +74,7 @@
                 <div id="materia">Materia</div>
                 <div id="fecha">Fecha</div>
             </div>
+            <!-- En este div va la pregunta -->
             <div id="pregunta">Pregunta</div>
             <div id="piePregunta">
                 <form action="" method="POST">
@@ -74,6 +82,7 @@
                 </form>
             </div>
         </div>
+        <!-- --------------------------------------------------------------------------------------- -->
     </main>
 </body>
 </html>

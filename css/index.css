@@ -24,7 +24,7 @@ img#logo{
 img#foto{
     width: 50%;
 }
-
+/*los 4 contenedores son la estructura principal*/
 div.contenedorFotoUsuario{
     border: 1px solid red;
     width: 25%;
@@ -60,7 +60,7 @@ div.contenedorPreguntas{
     padding: 5%;
 }
 /*-----------------------------------------------------------------*/
-
+/*Estilo de la caja para hacer preguntas*/
 div.encabezadoPregunta{
     background-color: lawngreen;
     border-radius: 10px 10px 0 0;
@@ -85,7 +85,7 @@ input#botonPublicar{
     float: right;
 }
 /*-------------------------------------------------------------------*/
-
+/*Estilo de la caja para mostrar preguntas*/
 div#fotoUsuario{
     float: left;
     margin: 5px;
