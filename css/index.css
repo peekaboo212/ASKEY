@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    display: table;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header{
+    border: 1px solid black;
+    height: 60px;
+}
+
+img#logo{
+    height: 50px;
+    padding-left: 60px;
+}
+
+img#foto{
+    width: 50%;
+}
+
+div.contenedorFotoUsuario{
+    border: 1px solid red;
+    width: 25%;
+    /*display: inline-block;*/
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div.contenedorHacerPregunta{
+    border: 1px solid blue;
+    width: 75%;
+    /*display: inline-block;*/
+    float: right;
+    padding: 5%;
+}
+
+div.contenedorFiltros{
+    clear: both;
+    border: 1px solid violet;
+    width: 25%;
+    /*display: inline-block;*/
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+div.contenedorPreguntas{
+    border: 1px solid brown;
+    width: 75%;
+    /*display: inline-block;*/
+    float: right;
+    padding: 5%;
+}
+/*-----------------------------------------------------------------*/
+
+div.encabezadoPregunta{
+    background-color: lawngreen;
+    border-radius: 10px 10px 0 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: table;
+    width: 100%;
+}
+input.contenedorPregunta{
+    background-color: lightseagreen;
+    width: 100%;
+    min-height: 110px;
+    border-radius: 0 0 10px 10px;
+    border: none;
+}
+input#botonPublicar{
+    margin-top: 5px;
+}
+#botonPublicar{
+    float: right;
+}
+/*-------------------------------------------------------------------*/
+
+div#fotoUsuario{
+    float: left;
+    margin: 5px;
+}
+div#nombreUsuario{
+    float: left;
+    margin: 5px;
+}
+div#materia{
+    float: right;
+    margin: 5px;
+}
+div#fecha{
+    float: right;
+    margin: 5px;
+}
+div#pregunta{
+    background-color: lightseagreen;
+    width: 100%;
+    min-height: 80px;
+}
+div#piePregunta{
+    background-color: rgb(32, 100, 178);
+    width: 100%;
+    min-height: 30px;
+    border-radius: 0 0 10px 10px;
+
+}
