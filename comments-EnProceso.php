@@ -1,7 +1,7 @@
 <?php
 session_start();
 include "model/conexion.php";
-include "includes/usuario.php";
+include "model/usuario.php";
 
 if(isset($_SESSION['id'])){
   header('location: askey.php');
