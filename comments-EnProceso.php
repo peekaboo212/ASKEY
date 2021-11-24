@@ -27,7 +27,7 @@ if(isset($_SESSION['id'])){
 </form>
 <?php
 if(isset($_POST['texto'])) {
-  $query = mysql_query("INSERT INTO comentarios(Id_Comentario, Texto, Id_Usuario, Id_Post, Fecha_Comentario, MeGusta, BanderaRoja) value ('".$_POST['comentarios']."','".$_SESSION['id']."',NOW())");	
+  $query = mysql_query("INSERT INTO comentarios(Id_Comentario, Texto, Id_Usuario, Id_Post, Fecha_Comentario, MeGusta, BanderaRoja) value ('".$_POST['comentarios']."','".$_SESSION['id']);	
   if($query) { header("Location: askey.php"); }
 }
 ?>
@@ -41,42 +41,7 @@ if(isset($_POST['texto'])) {
 		   	 $usuario = mysql_query("SELECT * FROM usuarios WHERE id = '".$row['usuario']."'");
 		  	 $user = mysql_fetch_array($usuario);
 
-		    ?>
-        
-        	<li class="cmmnt">
-            	<div class="avatar">
-                <img src="<?php echo $user['avatar']; ?>" height="55" width="55">
-                </div>
-                <div class="cmmnt-content">
-                	<header>
-                    <a href="#" class="userlink"><?php echo $user['usuario']; ?></a> - <span class="pubdate"><?php echo $row['fecha']; ?></span>
-                    </header>
-                    <p>
-                    <?php echo $row['comentario']; ?>
-                    </p>
-                    <span>
-                    <a href="index.php?user=<?php echo $user['usuario']; ?>&id=<?php echo $row['id']; ?>">
-                    Responder
-                    </a>
-                    </span>
-                </div>
-                
-                <?php
-				$contar = mysql_num_rows(mysql_query("SELECT * FROM comentarios WHERE reply = '".$row['id']."'"));
-				if($contar != '0') {
-					
-					$reply = mysql_query("SELECT * FROM comentarios WHERE reply = '".$row['id']."' ORDER BY id DESC");
-					while($rep=mysql_fetch_array($reply)) {
-						
-					$usuario2 = mysql_query("SELECT * FROM usuarios WHERE id = '".$rep['usuario']."'");
-					$user2 = mysql_fetch_array($usuario2);
-				?>
-                <?php } } } ?>
-                  
-            </li>        
-        
-        </ul>
-    </div>
+        ?>
 
 </div>
 </body>
