@@ -1,0 +1,1 @@
+INSERT INTO `comentarios`(`Id_Comentario`, `Texto`, `Fecha_Comentario`, `MeGusta`, `Bandera_Roja`, `Id_post`, `Id_usuario`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
