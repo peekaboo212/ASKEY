@@ -12,13 +12,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
   </head>
   <body>
-      <div class="container-fluid bg-primary">
-          <div class="row">
-              <div class="col-md">
-                  <header class="py-3">
-                      <h2 class="text-center">Almacen</h2>
-                      <a href="controller/cerrarSesion.php">cerrar sesion</a>
-                  </header>
-              </div>
-          </div>
-      </div>
+    <nav class="navbar" style="background-color: #A0CDE7;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/Askey.png" alt="" height="50">
+            </a>
+        </div>
+    </nav>
