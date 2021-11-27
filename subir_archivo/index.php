@@ -14,6 +14,7 @@
 
     }
 ?>
+<<<<<<< Updated upstream
         <form action="upload.php" method="POST" class="container">
             <div>
                 <label for="formFileLg" class="form-label">Suba su archivo</label>
@@ -23,6 +24,12 @@
                 <input type="hidden" name="oculto" value="1">
                 <input type="submit" class="btn btn-primary" value="Subir">
             </div>
+=======
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <h2>Subir archivo</h2>
+            <input type="file" name="file">
+            <input type="submit" value="Subir archivo">
+>>>>>>> Stashed changes
         </form>
         <a href="upload.php"> View post </a>
     </body>

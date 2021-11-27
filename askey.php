@@ -3,6 +3,48 @@
 <div class="container mt-4 ">
     <div class="row justify-content-between">
 
+        <!-- Sección para mostrar foto del usuario -->
+            <div class="col-12 col-md-3 text-center mb-5">
+                <?php include 'Realizar_pregunta_y_BD_final/Realizar_el_post/config.php'; ?>
+                <img src="subir_archivo/<?php echo $columna4['foto']; ?>" class="rounded-circle" width="200" height="200" style="object-fit: cover;">
+            </div>
+        <!-- /Sección para mostrar foto del usuario -->
+        
+        <!-- Sección realizar pregunta -->
+        <div class="col-12 col-md-9">
+            <div class="card">
+                <!-- Elementos del encabezado -->
+                <div class="card-header">
+                    <div class="row">
+                        <div class="">
+                            Pregunta.
+                            @nombre
+                        </div>
+                    </div>
+                </div>
+                <!-- /Elementos del encabezado -->
+                
+                <!-- Contenido pregunta -->
+                <div class="card-body">
+                        <?php include 'Realizar_pregunta_y_BD_final/Realizar_el_post/config.php' ?>
+                        <form method="post">
+                            <textarea class="form-control" rows="3" placeholder="Haz tu pregunta" id="floatingTextarea" name="publicacion"></textarea>
+                            <div class="d-flex justify-content-end">
+                                <div class="m-1">
+                                    <input type="hidden" name="oculto" value="1">
+                                    <input type="submit" class="btn btn-primary" value="Publicar" name="publicar">
+                                </div>
+                            </div>
+                        </form>
+                        <?php include("Realizar_pregunta_y_BD_final/Realizar_el_post/publicacion.php"); ?>             
+                </div>
+                <!-- /Realizar publicacion -->
+            </div>
+        </div>       
+    </div>
+
+    <div class="row justify-content-end">
+
         <!-- Seccion filtros -->
         <div class="col-12 col-md-3 mb-4 mb-md-0">
             <div class="container">
@@ -37,6 +79,7 @@
             </div>
         </div>
         <!-- /Seccion filtros -->
+<<<<<<< Updated upstream
         
         <!-- Sección realizar pregunta -->
         <div class="col-12 col-md-9">
@@ -72,13 +115,22 @@
     </div>
 
     <div class="row justify-content-end">
+=======
+
+        <!-- Seccion mostrar preguntas -->
+>>>>>>> Stashed changes
         <div class="col-12 col-md-9 mt-4">
             <!-- Seccion mostrar preguntas -->
             <h1>Preguntas</h1>
             <hr>
             <?php include("Realizar_pregunta_y_BD_final/Realizar_el_post/feed.php"); ?>
+<<<<<<< Updated upstream
             <!-- /Seccion mostrar preguntas -->
         </div>
+=======
+        </div>
+        <!-- /Seccion mostrar preguntas -->
+>>>>>>> Stashed changes
     </div>
     
 </div>
