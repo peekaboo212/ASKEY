@@ -10,15 +10,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- iconos -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
-      <div class="container-fluid bg-primary">
-          <div class="row">
-              <div class="col-md">
-                  <header class="py-3">
-                      <h2 class="text-center">Almacen</h2>
-                      <a href="controller/cerrarSesion.php">cerrar sesion</a>
-                  </header>
-              </div>
-          </div>
-      </div>
+    <nav class="navbar" style="background-color: #A0CDE7;">
+        <div class="container">
+            <a class="navbar-brand" href="askey.php">
+                <img src="img/Askey.png" alt="" height="50">
+            </a>
+        </div>
+    </nav>
