@@ -19,7 +19,11 @@
     
     
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+<<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
+>>>>>>> Stashed changes
 <<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
     <form method="post">
         
@@ -31,6 +35,11 @@
         <input type="submit" name="publicar">
         
 =======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+=======
+>>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
 >>>>>>> Stashed changes
         <form method="post">
         
@@ -43,6 +52,13 @@
             
             <a href="feed.php"> View post </a>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
+>>>>>>> Stashed changes
+=======
+<<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
+>>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
 =======
 >>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
 >>>>>>> Stashed changes

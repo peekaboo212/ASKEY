@@ -19,6 +19,7 @@
     
     
 <<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
+<<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
     <form method="post">
         
         
@@ -29,6 +30,8 @@
         <input type="submit" name="publicar">
         
 =======
+=======
+>>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
         <form method="post">
         
 
@@ -39,6 +42,9 @@
             <input type="submit" name="publicar"> 
             
             <a href="feed.php"> View post </a>
+<<<<<<< Updated upstream:Realizar pregunta y BD/Archivos de configuracion/index.php
+>>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
+=======
 >>>>>>> Stashed changes:Realizar_pregunta_y_BD_final/Realizar_el_post/index.php
         
         

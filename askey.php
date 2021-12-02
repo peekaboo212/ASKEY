@@ -1,13 +1,30 @@
+<<<<<<< Updated upstream
 <?php include 'templates/header.php'?> 
+=======
+<?php 
+    include 'templates/header.php';
+    include 'Realizar_pregunta_y_BD_final/Realizar_el_post/config.php';
+?> 
+>>>>>>> Stashed changes
 
 <div class="container mt-4 ">
     <div class="row justify-content-between">
 
         <!-- Sección para mostrar foto del usuario -->
+<<<<<<< Updated upstream
             <div class="col-12 col-md-3 text-center mb-5">
                 <?php include 'Realizar_pregunta_y_BD_final/Realizar_el_post/config.php'; ?>
                 <img src="subir_archivo/<?php echo $columna4['foto']; ?>" class="rounded-circle" width="200" height="200" style="object-fit: cover;">
             </div>
+=======
+        
+            <div class="col-12 col-md-3 text-center mb-5">
+                <a href="infoUsuario.php">
+                    <img src="subir_archivo/<?php echo $columna4['foto']; ?>" class="rounded-circle" width="190" height="190" style="object-fit: cover;">
+                </a>
+            </div>
+        
+>>>>>>> Stashed changes
         <!-- /Sección para mostrar foto del usuario -->
         
         <!-- Sección realizar pregunta -->
@@ -17,8 +34,13 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="">
+<<<<<<< Updated upstream
                             Pregunta.
                             @nombre
+=======
+                            <img src="subir_archivo/<?php echo $columna4['foto']; ?>" class="rounded-circle" height="25" width="25"  style="object-fit: cover;">
+                            <?php echo $datos_usuario_cuenta['nombre']; ?>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
@@ -38,7 +60,12 @@
                         </form>
                         <?php include("Realizar_pregunta_y_BD_final/Realizar_el_post/publicacion.php"); ?>             
                 </div>
+<<<<<<< Updated upstream
                 <!-- /Realizar publicacion -->
+=======
+                <!-- /Contenido pregunta -->
+        <!-- /Sección realizar pregunta -->
+>>>>>>> Stashed changes
             </div>
         </div>       
     </div>
@@ -80,6 +107,7 @@
         </div>
         <!-- /Seccion filtros -->
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
         <!-- Sección realizar pregunta -->
         <div class="col-12 col-md-9">
@@ -119,11 +147,16 @@
 
         <!-- Seccion mostrar preguntas -->
 >>>>>>> Stashed changes
+=======
+
+        <!-- Seccion mostrar preguntas -->
+>>>>>>> Stashed changes
         <div class="col-12 col-md-9 mt-4">
             <!-- Seccion mostrar preguntas -->
             <h1>Preguntas</h1>
             <hr>
             <?php include("Realizar_pregunta_y_BD_final/Realizar_el_post/feed.php"); ?>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             <!-- /Seccion mostrar preguntas -->
         </div>
@@ -131,9 +164,11 @@
         </div>
         <!-- /Seccion mostrar preguntas -->
 >>>>>>> Stashed changes
+=======
+        </div>
+        <!-- /Seccion mostrar preguntas -->
+>>>>>>> Stashed changes
     </div>
     
 </div>
-
-   
-     
+<?php include 'templates/footer.php'?> 
